@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87301dfd5954dc045a4b3b00891e322d, type: 3}
+  m_Name: LevelDatabase
+  m_EditorClassIdentifier: 
+  levels:
+  - level: 1
+    haveNextLevel: 1
+    rounds:
+    - round: {fileID: 1894237772769525279, guid: 4e567103dd098b242998a5de6964836c,
+        type: 3}
+      uncolored: {r: 1, g: 0.054463744, b: 0, a: 1}
+      colored: {r: 1, g: 0.8931041, b: 0, a: 1}
+    - round: {fileID: 757156705618227474, guid: 35df54d68e3c5af4ca4aceb257b964f3,
+        type: 3}
+      uncolored: {r: 0, g: 0.0981555, b: 1, a: 1}
+      colored: {r: 0.22081208, g: 1, b: 0, a: 1}
+    - round: {fileID: 757156705618227474, guid: c64e5ccb6b4b3a74680b168f9d38e2fb,
+        type: 3}
+      uncolored: {r: 0, g: 1, b: 0.703217, a: 1}
+      colored: {r: 0.6105046, g: 0, b: 1, a: 1}
+  - level: 2
+    haveNextLevel: 0
+    rounds:
+    - round: {fileID: 7896101070849668645, guid: abad17c58103a7449b441a86f6e84c03,
+        type: 3}
+      uncolored: {r: 0, g: 0.966949, b: 1, a: 1}
+      colored: {r: 1, g: 0, b: 0.6239314, a: 1}
+    - round: {fileID: 757156705618227474, guid: ccfd4cd16fdab6744ba7f0c13b524a63,
+        type: 3}
+      uncolored: {r: 0, g: 1, b: 0.60323405, a: 1}
+      colored: {r: 1, g: 0.51794124, b: 0, a: 1}
+    - round: {fileID: 757156705618227474, guid: 7c745b6d11c421c4680e34689ca88535,
+        type: 3}
+      uncolored: {r: 1, g: 0, b: 0.7647276, a: 1}
+      colored: {r: 0.40943396, g: 0.6525493, b: 1, a: 1}
